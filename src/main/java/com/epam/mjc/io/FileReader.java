@@ -20,6 +20,7 @@ public class FileReader {
                     case "Age:": profile.setAge(Integer.parseInt(keyValue[1]));break;
                     case "Email:": profile.setEmail(keyValue[1]);break;
                     case "Phone:": profile.setPhone(Long.parseLong(keyValue[1]));break;
+                    default: break;
                 }
             }
         }
